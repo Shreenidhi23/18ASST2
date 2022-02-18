@@ -1,0 +1,14 @@
+def findFactSum(N):
+
+    f = 1
+    Sum = 0
+    for i in range(1, N + 1):
+        f = f * i
+        Sum +=f
+    return Sum
+if __name__ ==“__main__” :
+    N = 5
+    print(findFactSum(N))
+    O/P:
+    Enter range:33
+Prime numbers: 1 2 3 5 7 11 13 17 19 23 29 31 
